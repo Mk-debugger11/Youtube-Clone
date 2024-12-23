@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #0f0f0f;
+    font-family: "Roboto", serif;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 56px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+}
+.menu-icon{
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+.menu-icon:hover{
+    background-color: #2d2c2c;
+}
+.menu-icon img{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    background-color: transparent;
+}
+.youtube-logo{
+    width: 123px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px 14px 18px 16px;
+    cursor: pointer;
+    position: relative;
+}
+.red-icon img{
+    height: 30px;
+}
+.youtube-font{
+    margin-left: 2px;
+}
+.youtube-font img{
+    height: 20px;
+}
+
+.search-bar{
+    display: flex;
+    width: 732px;
+    height: 40px;
+    margin-left: 14.22vw;
+}
+.search-input input{
+    width: 536px;
+    height: 40px;
+    margin-left: 32px;
+    padding: 16px;
+    color: white;
+    font-size: 15px;
+    border: 1px solid #303030;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.search-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212121;
+    width: 64px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    border: 1px solid #303030;
+    border-left: none;
+}
+.search-image img{
+    background-color: transparent;
+}
+.mic-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #303030;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.mic-icon img{
+    background-color: transparent;
+}
+.mic-icon:hover{
+    background-color: #403e3e;
+}
