@@ -91,6 +91,7 @@
     border-radius: 50%;
     margin-left: 15px;
     cursor: pointer;
+    transition: 0.1s;
 }
 .mic-icon img{
     background-color: transparent;
