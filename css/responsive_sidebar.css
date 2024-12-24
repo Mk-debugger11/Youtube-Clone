@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #0f0f0f;
+    font-family: "Roboto", serif;
+    box-sizing: border-box;
+    color: white;
+}
+.sidebar-for-small-screen{
+    width: 82px;
+    padding: 0 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: none;
+}
+.home-small{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 64px;
+    height: 74px;
+    cursor: pointer;
+    margin-bottom: 2px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.home-small:hover{
+    background-color: #262626;
+}
+.home-small img{
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+}
+.icon-small{
+    background-color: transparent;
+}
+.font-small{
+    background-color: transparent;
+}
+.home-small p{
+    font-size: 10px;
+    color: rgb(241, 241, 241);
+    font-weight: 400;
+    line-height: 14px;
+    background-color: transparent;
+}
+@media (max-width:1312px){
+    .sidebar{
+        display: none;
+    }
+    .sidebar-for-small-screen{
+        display: block;
+    }
+}
+@media (max-width:791px){
+    .sidebar-for-small-screen{
+        display: none;
+    }
+}

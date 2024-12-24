@@ -119,6 +119,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin-left: 3px;
 }
 .create-btn{
     display: flex;
@@ -189,6 +190,7 @@
     overflow: scroll;
     overflow-x: hidden;
     width: 235px;
+    transition: 0.3s;
 }
 .upper-sidebar{
     height: 345px;
