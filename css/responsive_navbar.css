@@ -1,0 +1,50 @@
+@media (min-width:1000px) and (max-width:1173px){
+    .search-input input{
+        width: 44.28vw;
+    }
+
+} 
+@media (min-width:900px) and (max-width:1000px){
+    .search-input input{
+        width: 36.3vw;
+    }
+}
+@media (min-width:800px) and (max-width:900px){
+    .search-input input{
+        width: 29.2vw;
+    }
+}
+@media(min-width:700px) and (max-width:800px){
+    .search-input input{
+        width: 21.12vw;
+    }
+}
+@media (min-width:657px) and (max-width:700px){
+    .search-input input{
+        width: 9.85vw;
+    }
+}
+@media (min-width:500px) and (max-width:657px){
+    .hide-on-small{
+        display: none;
+    }
+    .search-image{
+        background-color: transparent;
+        border: none;
+        justify-content: flex-end;
+    }
+    .search-bar{
+        justify-content: flex-end;
+        width: 15vw;
+    }
+    .mic-icon{
+        background-color: transparent;
+        margin-left: 10px;
+    }
+}
+@media (max-width:500px){
+    .search-bar{
+        width: 21vw;
+        margin-left: 0;
+    }
+}
