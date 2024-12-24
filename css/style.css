@@ -99,3 +99,70 @@
 .mic-icon:hover{
     background-color: #403e3e;
 }
+.nav-right{
+    width: 225px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 140px;
+}
+.create-btn{
+    display: flex;
+    width: 97.19px;
+    height: 36px;
+    border-radius: 20px;
+    background-color: #303030;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.create-btn:hover{
+    background-color: #403e3e;
+}
+.create-btn img{
+    background-color: transparent;
+    height: 30px;
+}
+.create-btn p{
+    color: white;
+    background-color: transparent;
+    position: relative;
+    left: -10px;
+    font-size: 14px;
+}
+.notification-icon{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.notification-icon:hover{
+    background-color: #403e3e;
+}
+.notification-icon img{
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+}
+.account-avatar{
+    width: 60px;
+    height: 34px;
+    border-radius: 50%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.account-avatar img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
