@@ -347,16 +347,144 @@
     font-size: 12px;
 }
 /* sidebar scrollbar styling */
-::-webkit-scrollbar{
+.sidebar::-webkit-scrollbar{
     width: 6px; 
 }
-::-webkit-scrollbar-track{
+.sidebar::-webkit-scrollbar-track{
     background: transparent;
 }
 .sidebar::-webkit-scrollbar-thumb{
     border-radius: 10px;
     transition: 0.1s;
+    height: 12rem;
 }
 .sidebar:hover::-webkit-scrollbar-thumb{
     background: #575757;
+}
+.video-grid{
+
+}
+.upper-slider{
+    height: 56px;
+    display: flex;
+    padding: 0 24px;
+    width: 1257px;
+    align-items: center;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+.upper-slider::-webkit-scrollbar{
+    display: none;
+}
+
+.all{
+    font-size: 14px;
+    background-color: #f2f2f2;
+    height: 32px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 12px;
+    border-radius: 8px;
+    margin:12px 12px 12px 0;
+}
+.all p{
+    background-color: transparent;
+    color: black;
+    font-weight: 500;
+}
+.all-2{
+    font-size: 14px;
+    height: 32px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 12px;
+    border-radius: 8px;
+    margin:12px 12px 12px 0;
+    background-color: #292929;
+}
+.all-2 p{
+    background-color: transparent;
+    font-weight: 500;
+    width: 100%;
+    white-space: nowrap;
+}
+.video-grid-lower{
+    padding-top: 24px;
+}
+.video-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 392px;
+}
+.thumbnail{
+    
+}
+.thumbnail img{
+    width: 100%;
+    border-radius: 10px;
+}
+.cursor{
+    cursor: pointer;
+}
+.video-box-lower{
+    display: flex;
+    height: 100px;
+    font-size: 16px;
+    padding-top: 10px;
+    justify-content: space-evenly;
+}
+.channel-avatar{
+    width: 44px;
+    height: 35px;
+    margin-right: 13px;
+}
+.channel-avatar img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+.views-time{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+.views-time .views:nth-child(2){
+    position: relative;
+    top: -3px;
+}
+.channel{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.channel img{
+    position: relative;
+    bottom: -3px;
+    left: -1px;
+
+}
+.views{
+    margin-right: 5px;
+    color: rgb(170, 170, 170);
+    font-size: 14px;
+    margin-top: 3px;
+    font-weight: 400;
+}
+.video-details{
+    padding-right: 20px;
+}
+.title{
+    margin-bottom: 4px;
+}
+.icon{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    right: -5px;
 }
