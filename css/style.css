@@ -120,6 +120,7 @@
     justify-content: flex-start;
     align-items: center;
     margin-left: 3px;
+    margin-right: 2px;
 }
 .create-btn{
     display: flex;

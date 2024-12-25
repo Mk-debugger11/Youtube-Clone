@@ -47,4 +47,52 @@
         width: 21vw;
         margin-left: 0;
     }
+    .hide-on-small{
+        display: none;
+    }
+    .search-image{
+        background-color: transparent;
+        border: none;
+        justify-content: flex-end;
+    }
+    .mic-icon{
+        background-color: transparent;
+        margin-left: 10px;
+    }
+    .search-bar{
+        justify-content: flex-end;
+        width: 15vw;
+    }
+}
+@media (max-width:425px){
+    .hide-on-small{
+        display: none;
+    }
+    .search-image{
+        background-color: transparent;
+        border: none;
+        justify-content: flex-end;
+        position: relative;
+        right: 18px;
+    } 
+    .mic-icon{
+        display: none;
+    }
+    .menu-icon{
+        display: none;
+    }
+    .nav-right{
+        display: none;
+    }
+    .navbar{
+        justify-content:space-between;
+        padding-left: 0;
+        width: 100%;
+        padding: 0;
+    }
+    .nav-left{
+        position: relative;
+        left: -18px;
+    }
+
 }
