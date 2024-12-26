@@ -343,7 +343,7 @@
     
 }
 .copyright p{
-    color: #AAAAAA;
+    color: #707070;
     font-size: 12px;
 }
 /* sidebar scrollbar styling */
@@ -420,9 +420,6 @@
     align-items: flex-start;
     justify-content: center;
     width: 392px;
-}
-.thumbnail{
-    
 }
 .thumbnail img{
     width: 100%;
