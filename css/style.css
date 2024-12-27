@@ -361,9 +361,6 @@
 .sidebar:hover::-webkit-scrollbar-thumb{
     background: #575757;
 }
-.video-grid{
-
-}
 .upper-slider{
     height: 56px;
     display: flex;
