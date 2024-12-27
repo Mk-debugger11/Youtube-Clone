@@ -493,11 +493,11 @@
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,1fr);
     row-gap: 20px;
-    overflow-y: scroll;
     height: 700px;
     column-gap: 0;
     width: 1257px;
     padding-left: 16px;
+    overflow-y: scroll;
 }
 .video-grid-lower::-webkit-scrollbar{
     width: 5px;
@@ -535,6 +535,8 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    position: relative;
+    left: -10px;
 }
 .shorts-video-box{
     display: flex;
