@@ -132,11 +132,15 @@
 }
 @media (max-width:425px){
     .upper-slider{
-        width: 95vw;
+        width: 100vw;
     }
     .video-box{
         width: 90vw;
-        margin: 0;
+        margin: auto;
+    }
+    .navbar,
+    .upper-slider{
+        border-bottom: 1.5px solid rgb(99, 99, 99);
     }
 }
 @media (max-width:375px){
