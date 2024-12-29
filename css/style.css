@@ -7,6 +7,10 @@
     box-sizing: border-box;
     color: white;
 }
+body{
+    overflow-x: hidden;
+}
+
 .navbar{
     width: 100%;
     height: 56px;
@@ -512,8 +516,7 @@
 }
 .shorts-section{
     grid-column: 1/4;
-    grid-row: auto;
-    width: 100%;
+    width: 81.2vw;
     height: auto;
     margin-top: 10px;
 }
@@ -536,20 +539,22 @@
 }
 .shorts-video-section{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     position: relative;
     left: -10px;
+    width: 100%;
+    padding: 0 5px;
 }
 .shorts-video-box{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    width: 229px;
+    width: 15.5vw;
 }
 .shorts-video-box-img{
-    width: 229px;
+    width: 100%;
     height: auto;
     overflow: hidden;
     display: flex;
@@ -568,8 +573,10 @@
 }
 .shorts-video-box-lower{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-top: 7px;
+    width: 100%;
+    padding: 0 5px;
 }
 .shorts-video-box-title{
     width: 100%;
