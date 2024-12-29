@@ -57,9 +57,20 @@
     .sidebar-for-small-screen{
         display: block;
     }
+    .upper-slider{
+        width: 90vw;
+    }
 }
 @media (max-width:791px){
     .sidebar-for-small-screen{
         display: none;
+    }
+    .upper-slider{
+        width: 95vw;
+    }
+}
+@media (max-width:425px){
+    .upper-slider{
+        width: 95vw;
     }
 }

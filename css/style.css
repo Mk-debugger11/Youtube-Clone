@@ -361,14 +361,18 @@
 .sidebar:hover::-webkit-scrollbar-thumb{
     background: #575757;
 }
+.video-grid{
+    width: 80vw;
+    height: auto;
+}
 .upper-slider{
     height: 56px;
     display: flex;
-    padding: 0 24px;
-    width: 1257px;
+    width: 82vw;
     align-items: center;
     overflow: hidden;
     overflow-x: scroll;
+    padding: 0 20px;
 }
 .upper-slider::-webkit-scrollbar{
     display: none;
