@@ -181,6 +181,13 @@
         width: 90vw;
         margin: auto;
     }
+    .shorts-video-box-img{
+        height: 80vw;
+    }
+    .shorts-video-box-img img{
+        width: auto;
+        height: auto;
+    }
 }
 @media (max-width:375px){
     .title{
